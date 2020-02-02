@@ -1,11 +1,14 @@
 : 1
 name: tabulate
-version: 0.1.0-a.0.z
-summary: tabulate C++ library
-license: proprietary
-description-file: README.md
-url: https://example.org/tabulate
-email: mjklaim@gmail.com
+version: 1.0.0-a.0.z
+summary: "`tabulate` is a header-only library for printing aligned, formatted, and colorized tables in Modern C++"
+license: MIT
+description-file: upstream/README.md
+url: https://github.com/p-ranav/tabulate
+
+package-email: mjklaim@gmail.com
+
 depends: * build2 >= 0.12.0
 depends: * bpkg >= 0.12.0
-#depends: libhello ^1.0.0
+
+
