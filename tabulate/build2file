@@ -37,7 +37,7 @@ lib{tabulate}:
   install.subdirs = true
 }
 
-../upstream/include/
+../upstream/include/tabulate/
 {
   {hxx ixx txx}{*}:
   {
