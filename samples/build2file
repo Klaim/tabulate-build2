@@ -1,0 +1,12 @@
+# import libs = tabulate%lib{tabulate} # TODO: Move the samples in the test sub-project once we can access files outside a project.
+include ../tabulate/
+
+for sample_cpp : $samples_dir/cxx{**}
+{
+    sample_name = $name($sample_cpp)
+    # info "Sample : $sample_name"
+    ./ : exe{$sample_name} : $samples_dir/cxx{$sample_name}
+    exe{$sample_name} : ../tabulate/lib{tabulate}
+    exe{$sample_name} : test = true
+}
+
