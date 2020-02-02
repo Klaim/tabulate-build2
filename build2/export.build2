@@ -1,0 +1,6 @@
+$out_root/
+{
+  include tabulate/
+}
+
+export $out_root/tabulate/$import.target
