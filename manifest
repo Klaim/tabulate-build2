@@ -1,6 +1,6 @@
 : 1
 name: tabulate
-version: 1.0.0
+version: 1.0.1-a.0.z
 summary: "`tabulate` is a header-only library for printing aligned, formatted, and colorized tables in Modern C++"
 license: MIT
 description-file: upstream/README.md
